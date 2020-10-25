@@ -1,0 +1,23 @@
+:root {
+  --color-background: #FAFAFA;
+  --color-white: #FFFFFF;
+  --color-checkbox-container-hover: #EEEEEE;
+  --color-primary: #424242;
+  --color-active: #29B6F6;
+  --color-title: #29B6F6;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+	height: 100vh;
+}
+
+body {
+  background-color: var(--color-background);
+  font: 400 1.0rem Roboto;
+}
